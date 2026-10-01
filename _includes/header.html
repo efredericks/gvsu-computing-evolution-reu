@@ -1,4 +1,7 @@
 <header class="header">
+{% if site.announcement %}
+<div id="announcement">{{ site.announcement }}</div>
+{% endif %}
 <div class="navigation">
 <a href="{{ '/' | prepend: site.baseurl }}" class="logo">{{ site.title }}</a>
 <ul class="menu">

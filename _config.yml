@@ -12,6 +12,9 @@ author:
   linkedin: linkedin
   email: example@email.com
 
+announcement: >
+  <h2>Applications for Summer 2027 are now open!  Deadline to apply is February 1st, 2027, AoE.</h2><a href="https://google.com">Apply Here!</a>
+
 
 # Syntax highlighting
 highlightstyle: 'agate'

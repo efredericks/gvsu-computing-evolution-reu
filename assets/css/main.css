@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+/*
+GVSU color palette: https://www.gvsu.edu/identity/color-2
+*/
+
 /* =Base */
 /*************************************************************/
 body {
@@ -741,4 +745,88 @@ tfoot {
 
 tbody tr:nth-child(even) {
   background: color-mix(in srgb, var(--color), transparent 60%);
+}
+
+/*
+#announcement {
+  background: #4A0C6E;
+  padding: 0.5rem;
+  font-weight: bold;
+  color: #fff;
+  line-height: 2rem;
+  text-align: center;
+}
+#announcement a {
+  font-weight: bold;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.5rem;
+}
+#announcement {
+  background: #4A0C6E;
+  padding: 0.5rem;
+  font-weight: bold;
+  color: #fff;
+  line-height: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#announcement h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#announcement a {
+  display: inline-block;
+  font-weight: bold;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+  */
+
+#announcement {
+  background: linear-gradient(135deg, #0ECBF0 0%, #13155C 33%, #4A0C6E 100%);
+  color: #fff;
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(74, 12, 110, 0.25);
+  border-top: 3px solid #BA6F4C;
+  margin-bottom: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#announcement h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+#announcement a {
+  display: inline-block;
+  background-color: #fff;
+  color: #4A0C6E;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.6rem 1.25rem;
+  border-radius: 6px;
+  white-space: nowrap;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+#announcement a:hover {
+  background-color: #BA6F4C;
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

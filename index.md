@@ -1,14 +1,13 @@
 ---
 layout: page
-title: Hello
-subtitle: My name is Pudhina
+title: Research Experience for Undergraduates - Intersecting Computing and Evolution
+# subtitle: A subtitle, how nifty
 sitemap:
   priority: 0.9
 ---
 
-<img src="{{ '/assets/img/pudhina.jpg' | prepend: site.baseurl }}" id="about-img">
+<img src="{{ '/assets/img/GrandValley_logomark_blue.png' | prepend: site.baseurl }}" id="about-img">
 
 <div id="describe-text">
-	<p>A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability</p>
-	<p>Fork and use the theme from the <strong> <a href="https://github.com/knhash/Pudhina"> repository</a> </strong></p>
+<p>Questions? Reach out to our PIs!</p>
 </div>
