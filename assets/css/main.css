@@ -6,11 +6,24 @@ GVSU color palette: https://www.gvsu.edu/identity/color-2
 
 /* =Base */
 /*************************************************************/
+/* html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+} */
+
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Quicksand', sans-serif; */
   font-size: 100%;
   color: #012;
   background-color: #FFF;
+
+  /* gradient */
+  /* background: linear-gradient(135deg, #ebf2fc 0%, #ffffff 100%);
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 a {
@@ -73,6 +86,7 @@ strong {
 .header {
   overflow: hidden;
   border-bottom: 1px solid #0032A0;
+  padding-bottom: 1rem;
 }
 
 .navigation {
@@ -108,6 +122,55 @@ strong {
 .menu__entry a {
   font-weight: 400;
 }
+
+/*
+.menu__entry.active a {
+  color: #0032A0;
+  font-weight: 700;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+} */
+
+/* .menu__entry a {
+  font-weight: 400;
+  padding: 6px 14px;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu__entry.active a {
+  color: #ffffff;
+  background-color: #0032A0;
+  font-weight: 600;
+} */
+/* .menu__entry {
+  position: relative;
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.menu__entry.active a {
+  color: #0032A0;
+  font-weight: 600;
+}
+
+.menu__entry.active::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: #0032A0;
+  border-radius: 50%;
+} */
+.menu__entry.active a {
+  color: #BA6F4C;
+  font-weight: 700;
+  /* text-shadow: 0 0 12px rgba(160, 69, 0, 0.35); */
+}
+
+
 
 .social-links {
   float: right;
