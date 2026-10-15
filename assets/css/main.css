@@ -926,6 +926,16 @@ tbody tr:nth-child(even) {
   line-height: 1.2;
 }
 
+.person p.desc {
+  border-radius: 0.7rem;
+  background:#0032A022;
+  /* border-right: 1rem solid #0032A0; */
+  /* border: 1px solid #0032A0; */
+  border-left: 1rem solid #0032A0 !important;
+
+  padding: 0.5rem 1rem;
+}
+
 /* the bio paragraph(s) */
 .person > p:not(:first-child) {
   grid-column: 1 / -1;
