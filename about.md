@@ -43,14 +43,9 @@ This is an REU site.  It is nifty.  We should talk about the proposal and the aw
 
 <div class="person" markdown="1">
   <a id="jones" />
-  <img class="headshot" src="{{ '/assets/img/GrandValley_logomark_blue.png' | prepend: site.baseurl }}" />
-  <h2 class="name">Stuart Jones</h2>
-  <p>Dr. Stuart Jones is...</p>
-</div>
-<div class="person" markdown="1">
-  <img class="headshot" src="{{ '/assets/img/GrandValley_logomark_blue.png' | prepend: site.baseurl }}" />
-  <h2 class="name">Jane Doe</h2>
-  <p>Jane Doe is...</p>
+  <img class="headshot" src="{{ '/assets/img/people/stuart-jones.jpg' | prepend: site.baseurl }}" />
+  <h2 class="name"><a href="https://www.stuartjoneslab.com/">Dr. Stuart Jones</a></h2>
+  <p class="desc">Dr. Stuart Jones is the Allen and Helen Hunting Executive Director of the Annis Water Resources Institute and an aquatic ecologist. His ideal research project leverages information across scales to advance our theoretical understanding of aquatic ecosystems and their watersheds while also providing management-relevant information or predictions. Stuart’s primary goal is to facilitate the research and careers of others and to have fun while doing so. He is happiest building simple mathematical models or at the hockey rink with his family. </p>
 </div>
 
 
