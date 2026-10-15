@@ -4,9 +4,22 @@ title: About our REU
 # subtitle: About our REU
 ---
 
-This is an REU site.  It is nifty.  We should talk about the proposal and the award number and link to it and such and also show who we all are.
+<!-- The GVSU REU Site, "Research Experience for Undergraduates Intersecting Computing and Evolution," will run from 2027 -- 2029 and is funded by the [U.S. National Science Foundation Award #2547922](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2547922).
+<div >
+<img id="nsf" src="{{ '/assets/img/NSF_Official_logo_Med_Res_600ppi.png' | prepend: site.baseurl }}" /> -->
+<div class="reu-grant-card">
+  <div class="reu-grant-content">
+    <span class="reu-badge">NSF Award #2547922 &bull; 2027–2029</span>
+    <p class="reu-grant-text">
+      The GVSU REU Site, <strong>"Research Experience for Undergraduates Intersecting Computing and Evolution,"</strong> will run from 2027–2029 and is funded by the 
+      <a href="https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2547922" target="_blank" rel="noopener">U.S. National Science Foundation</a>.
+    </p>
+  </div>
+  <div class="reu-grant-logo">
+    <img id="nsf" src="{{ '/assets/img/NSF_Official_logo_Med_Res_600ppi.png' | relative_url }}" alt="National Science Foundation Logo" />
+  </div>
+</div>
 
-## About this site
 
 ## Who we are
 

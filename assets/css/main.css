@@ -20,7 +20,7 @@ body {
 
   /* gradient background */
   background-color: #f8fafc;
-  background-image: 
+  background-image:
     radial-gradient(at 0% 0%, rgba(0, 50, 160, 0.07) 0px, transparent 50%),
     radial-gradient(at 100% 100%, rgba(0, 50, 160, 0.05) 0px, transparent 50%);
   background-attachment: fixed;
@@ -898,8 +898,8 @@ tbody tr:nth-child(even) {
 /* mentors - align mentor name to bio pic */
 
 /* prevents anchor tags from consuming a grid column */
-.person > a[id] {
-  display: none; 
+.person>a[id] {
+  display: none;
 }
 
 .person {
@@ -910,7 +910,7 @@ tbody tr:nth-child(even) {
   align-items: center;
   margin-bottom: 2.5rem;
   padding: 1.25rem 1.5rem;
-  background: rgba(0, 50, 160, 0.03); 
+  background: rgba(0, 50, 160, 0.03);
   border: 1px solid rgba(0, 50, 160, 0.12);
   border-radius: 12px;
   box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
@@ -930,7 +930,7 @@ tbody tr:nth-child(even) {
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #ffffff;
-  outline: 2px solid #0032A0; 
+  outline: 2px solid #0032A0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -948,4 +948,75 @@ tbody tr:nth-child(even) {
   padding: 0;
   line-height: 1.6;
   color: #2c3e50;
+}
+
+/* nsf highlighting */
+.reu-grant-card {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.75rem 2rem;
+  margin: 2rem 0;
+  background: #ffffff;
+  border: 1px solid rgba(0, 50, 160, 0.15);
+  border-left: 5px solid #0032A0; 
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+@media (min-width: 640px) {
+  .reu-grant-card {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.reu-grant-content {
+  flex: 1;
+}
+
+.reu-badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #0032A0;
+  background: rgba(0, 50, 160, 0.08);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  margin-bottom: 0.75rem;
+}
+
+.reu-grant-text {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #1e293b;
+}
+
+.reu-grant-text a {
+  color: #0032A0;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.reu-grant-text a:hover {
+  color: #001f66;
+}
+
+.reu-grant-logo {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reu-grant-logo img#nsf {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.08));
 }
