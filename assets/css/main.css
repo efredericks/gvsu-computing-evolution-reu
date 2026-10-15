@@ -893,3 +893,41 @@ tbody tr:nth-child(even) {
   transform: translateY(-1px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+/* mentors - align mentor name to bio pic */
+.person {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  column-gap: 1rem;
+  align-items: center;          /* vertically centers name against the image row */
+  margin-bottom: 2rem;
+}
+
+.person > p:first-child {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0;
+}
+
+.person .headshot {
+  display: block;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.person .name {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+/* the bio paragraph(s) */
+.person > p:not(:first-child) {
+  grid-column: 1 / -1;
+  margin: 0.75rem 0 0;
+}
