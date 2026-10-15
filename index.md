@@ -8,7 +8,7 @@ sitemap:
 
 ## About our REU Site
 
-Our site will engage and train undergraduate students in empirical research, to advance evolutionary theory, and to harness the principles of evolution for algorithm development and real-world problem-solving. This site aligns with the [NSF Big Idea Understanding the Rules of Life](TBD) and will be supported by mentors experienced in guiding undergraduate students in independent, inter-disciplinary research. 
+Our site will engage and train undergraduate students in empirical research, to advance evolutionary theory, and to harness the principles of evolution for algorithm development and real-world problem-solving. This site aligns with the [NSF Big Idea Understanding the Rules of Life](https://www.nsf.gov/about/history/big-ideas#understanding-the-rules-of-life-3c8) and will be supported by mentors experienced in guiding undergraduate students in independent, inter-disciplinary research. 
 
 Student projects will focus in two specific domains: (1) digital evolutionary biology and (2) evolutionary computation algorithms. Students will be trained in the scientific process, including literature reviews, developing and executing research questions and experiments, creating software prototypes, and dissemination. Students will also experience professional development activities, participate in seminars, and engage in networking and experiential learning opportunities. Student participants and their mentors will be encouraged to publish their research findings and experiences in peer-reviewed conferences, journals, and competitions, as well as participate in university outreach events.
 
