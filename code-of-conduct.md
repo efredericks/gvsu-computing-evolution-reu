@@ -21,7 +21,7 @@ All participants are expected to:
 * Communicate openly and constructively, even when perspectives differ
 * Give and gracefully accept constructive feedback
 * Act with integrity 
-* Taking responsibility for mistakes and any impact on others, and learn from the experience
+* Take responsibility for mistakes and any impact on others, and learn from the experience
 
 ## Prohibited behavior
 
